@@ -7,3 +7,4 @@
 5.将第4步中得到的数据使用第3步中得到的新IV进行SM3-hash，即可得到长度扩展攻击结果<br>
 6.若第5步中得到的结果与将“原始数据+原始数据填充+追加数据”进行SM3-hash得到的结果相同，则攻击成功<br>
 ## 实验结果展示：
+![](https://github.com/dry9rape/SM3_lenth_expand_attack/raw/main/SM3长度扩展攻击结果.png) 
